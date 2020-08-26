@@ -80,7 +80,7 @@ main {
 
 .figcap-1{
     text-align: left;
-    margin: 0px 23% auto 11% ;
+    margin: 0px 23% auto 9.7% ;
 }
 
 .m-top-0 {
@@ -88,4 +88,54 @@ main {
 }
 .m-bot-0 {
     margin-bottom: 0;
+}
+
+.figcap-small {
+    color: rgb(121, 121, 121);
+}
+
+.article-social div{
+    justify-content: space-between ;
+}
+.article-text-and-social {
+    text-align: left;
+    margin: auto 23% auto 25%;
+}
+
+.social-btn:hover {
+    background-color: white;
+    border-color: rgb(231, 231, 231);
+
+}
+
+.social-btn {
+    font-size :10px ;
+    border-radius: 100%;
+    background: rgb(231, 231, 231);
+    
+
+}
+
+.social-btn-2 {
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    background: none;
+    
+}
+
+.social-btn,
+.social-btn-2 {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    
+}
+
+.date{
+    align-self: center;
+}
+
+.article-text{
+    font-size: 22px;
 }
