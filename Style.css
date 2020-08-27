@@ -32,6 +32,9 @@ nav{
     justify-content: space-between;
 }
 
+.dgrid {
+    display:grid;
+}
 .nav-icon-left {
     justify-content: space-between;
     align-self: center;
@@ -104,6 +107,10 @@ main {
 }
 .figcap-small {
     color: rgb(121, 121, 121);
+}
+
+.small-text{
+    font-size : 13px;
 }
 
 .article-social div{
@@ -188,6 +195,7 @@ main {
     font-size:18px;
 }
 
+
 .advert-break.centered {
     margin-right: 150px;
 }
@@ -197,14 +205,12 @@ main {
    margin-left: 10%;
 }
 .grid-container {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     
 }
 
 .div-picture-text {
-    display: grid;
     grid-template-rows: 1fr auto;
     
 }
@@ -234,7 +240,6 @@ main {
     position: Absolute;
     right: 60px;
     width: 23%;
-    border-top: 2px black;
 }
 
 .flex-grid {
@@ -243,7 +248,6 @@ main {
 }
 
 .grid-left-top{
-    display: grid;
     grid-template-rows:1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -257,3 +261,13 @@ main {
     margin-top: 30px;
 }
 
+.grid-left-bot {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* right side absolute */
+
+.popular-text {
+    line-height : 29px;
+}
