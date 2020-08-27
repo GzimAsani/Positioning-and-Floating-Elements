@@ -1,8 +1,7 @@
-*/ 
+ 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }
 
 nav{
@@ -97,7 +96,7 @@ main {
 }
 .article-text-and-social {
     text-align: left;
-    margin: auto 30% auto 20%;
+    margin: auto 25% auto 25%;
 }
 
 .social-btn:hover {
@@ -142,7 +141,7 @@ main {
 .aside {
     position: absolute;
     right: 60px;
-    width: 20%;
+    width: 17%;
 }
 
 .image-link img {
@@ -170,6 +169,10 @@ main {
     font-family: Domine, georgia, "times new roman", times, serif;
 }
 
+.font-big-2 {
+    font-size:18px;
+}
+
 .advert-break.centered {
     margin-right: 150px;
 }
@@ -190,3 +193,64 @@ main {
     grid-template-rows: 1fr auto;
     margin: 10px 10px 0 0;
 }
+
+.bottom-social {    
+    padding-top: 35px;
+}
+
+.social-btn-3 {
+    width:300px;
+    border-radius : 3px;
+}
+
+.black-aside {
+    color: black ;
+    font-size: 8px;
+    text-decoration: none;
+}
+
+/* Double Grid - Other Articles */
+
+.border-top-1 {
+    border-top : 2px black solid;
+}
+
+.grid-right {
+    position: Absolute;
+    right: 60px;
+    width: 23%;
+    border-top: 2px black;
+}
+
+.flex-grid {
+    margin: 40px;
+    width: 66%;
+}
+
+.grid-left-top{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.image-text-1 img {
+    max-width :100%;
+}
+
+.more {
+    margin-top: 30px;
+}
+
+.div-picture-text.class2{
+    grid-gap: 15px;
+    text-align: start;
+    
+
+}
+
+.little-fig-cap {
+    font-size: 10px;
+    align-items: flex-end;
+}
+
