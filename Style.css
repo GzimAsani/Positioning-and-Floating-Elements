@@ -271,3 +271,21 @@ main {
 .popular-text {
     line-height : 29px;
 }
+
+/* Footer */
+
+.footer-grid-left{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 70%;
+}
+ul {
+    list-style: none;
+}
+.footer-grid-left li {
+    margin: 10px 0 10px 0;
+    font-size: smaller;
+}
+
+.outside-footer img {
+    padding-left: 20px;
+}
