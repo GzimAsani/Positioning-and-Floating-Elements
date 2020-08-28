@@ -198,8 +198,8 @@ main {
 }
 
 
-.advert-break.centered {
-    margin-right: 150px;
+.advert-break .centered {
+    margin-right: 100px;
 }
 /* Theory of Inflation*/
 .bigger-centered{
@@ -344,4 +344,19 @@ ul {
 
 .sticky-footer-text {
     margin: 129px 0 0 0;
+}
+
+.expand-button {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+.footer-text {
+    margin-top: 15px;
+}
+.sticky-footer-button{
+    border-style: none;
+    background-color: white;
+    margin: 0 10px 0 10px;
 }
