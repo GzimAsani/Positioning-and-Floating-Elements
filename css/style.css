@@ -47,6 +47,7 @@ nav {
   justify-content: space-between;
   align-self: center;
   width: 20%;
+  max-width: 500px ;
   margin-left: 2%;
 }
 
