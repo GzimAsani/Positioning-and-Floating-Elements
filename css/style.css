@@ -345,6 +345,12 @@ ul {
   background-color: white;
 }
 
+.black a:hover {
+  text-decoration-style: solid;
+}
+
+/* Fixed Footer */
+
 .sticky-footer {
   margin-top: 80px;
 }
