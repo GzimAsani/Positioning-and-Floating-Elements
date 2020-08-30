@@ -35,6 +35,14 @@ nav {
   display: grid;
 }
 
+.dfloat-r{
+  float: right;
+}
+
+.dfloat-l{
+  float:left;
+}
+
 .nav-icon-left {
   justify-content: space-between;
   align-self: center;
