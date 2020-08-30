@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -35,19 +34,19 @@ nav {
   display: grid;
 }
 
-.dfloat-r{
+.dfloat-r {
   float: right;
 }
 
-.dfloat-l{
-  float:left;
+.dfloat-l {
+  float: left;
 }
 
 .nav-icon-left {
   justify-content: space-between;
   align-self: center;
   width: 20%;
-  max-width: 500px ;
+  max-width: 300px;
   margin-left: 2%;
 }
 
