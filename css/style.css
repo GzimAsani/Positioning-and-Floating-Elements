@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 45px;
+  margin-top: 0;
+  position: fixed;
+  background-color: white;
+  border: 0.5px lightgrey solid;
+}
+
+.z-index-top {
+  z-index: 2;
+}
+
+.z-index-bot {
+  z-index: 1;
+}
+
+.dflex nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dgrid {
+  display: grid;
+}
+
+.dfloat-r {
+  float: right;
+}
+
+.dfloat-l {
+  float: left;
+}
+
+.nav-icon-left {
+  justify-content: space-between;
+  align-self: center;
+  width: 20%;
+  max-width: 300px;
+  margin-left: 2%;
+}
+
+.sub-btn {
+  margin-right: 3%;
+  justify-items: center;
+  align-items: center;
+}
+
+.nav-btn {
+  height: 30px;
+  background-color: #3380b2;
+  border-radius: 8%;
+  border-style: none;
+  color: white;
+}
+
+.black {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-btn-1 {
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.centered {
+  padding-top: 10px;
+  text-align: center;
+  justify-items: center;
+}
+
+.article-titel {
+  font-size: 29px;
+  text-align: left;
+  padding-left: 29%;
+}
+
+main {
+  padding-top: 44px;
+}
+
+.article-pic {
+  width: 86%;
+}
+
+.figcap-1 {
+  text-align: left;
+  margin: 0 23% auto 9.7%;
+}
+
+.m-top-0 {
+  margin-top: 0;
+}
+
+.m-bot-0 {
+  margin-bottom: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.figcap-small {
+  color: rgb(121, 121, 121);
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.article-social div {
+  justify-content: space-between;
+}
+
+.article-text-and-social {
+  text-align: left;
+  margin: auto 25% auto 25%;
+}
+
+.social-btn {
+  font-size: 10px;
+  border-radius: 100%;
+  background: rgb(231, 231, 231);
+  border: solid 1px;
+}
+
+.social-btn-2 {
+  font-size: 20px;
+  border: none;
+  margin: 10px;
+  background: none;
+}
+
+.social-btn,
+.social-btn-2 {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.social-btn:hover {
+  background-color: white;
+  border-color: rgb(231, 231, 231);
+  border: solid 1px;
+}
+
+.date {
+  align-self: center;
+}
+
+.article-text {
+  font-size: 22px;
+}
+
+/* Aside section */
+.aside {
+  position: absolute;
+  right: 60px;
+  width: 17%;
+}
+
+.image-link img {
+  width: 40%;
+  padding: 8px;
+}
+
+.image-link a {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.space-around {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.line-styles1 {
+  width: 10%;
+}
+
+.nostyle {
+  text-decoration: none;
+}
+
+.font-style {
+  font-family: Domine, georgia, "times new roman", times, serif;
+}
+
+.font-big-2 {
+  font-size: 18px;
+}
+
+.advert-break .centered {
+  margin-right: 100px;
+}
+
+/* Theory of Inflation */
+.bigger-centered {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.grid-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.grid-container img {
+  height: 150px;
+  width: 225px;
+}
+
+.div-picture-text {
+  grid-template-rows: 1fr auto;
+}
+
+.bottom-social {
+  padding-top: 35px;
+}
+
+.social-btn-3 {
+  width: 300px;
+  border-radius: 3px;
+}
+
+.black-aside {
+  color: black;
+  font-size: 8px;
+  text-decoration: none;
+}
+
+/* Double Grid - Other Articles */
+
+.border-top-1 {
+  border-top: 2px black solid;
+}
+
+.grid-right {
+  position: absolute;
+  right: 60px;
+  width: 23%;
+}
+
+.flex-grid {
+  margin: 40px;
+  width: 66%;
+}
+
+.grid-left-top {
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.image-text-1 img {
+  max-width: 100%;
+}
+
+.more {
+  margin-top: 30px;
+}
+
+.grid-left-bot {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* right side absolute */
+
+.popular-text {
+  line-height: 29px;
+}
+
+/* Footer */
+
+.footer-grid-left {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 78%;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-grid-left li {
+  margin: 15px 0 10px 0;
+  font-size: smaller;
+}
+
+.outside-footer img {
+  padding-left: 20px;
+}
+
+.footger-right {
+  position: absolute;
+  right: 10px;
+  width: 20%;
+  border-left: 1px black solid;
+  margin-top: 60px;
+}
+
+.footger-right li {
+  margin: 20px 0 10px 0;
+}
+
+.footer-right-top {
+  position: absolute;
+  right: 20px;
+}
+
+.foter-right-bottom ul {
+  margin: 10px 0 5px 0;
+}
+
+.bottom-hr {
+  width: 80%;
+}
+
+.btm {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btm-li {
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.border-top-2 {
+  border-top: 3px solid grey;
+  text-align: center;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+.black a:hover {
+  text-decoration-style: solid;
+}
+
+/* Fixed Footer */
+
+.sticky-footer {
+  margin-top: 80px;
+}
+
+.sticky-footer-text {
+  margin: 129px 0 0 0;
+}
+
+.expand-button {
+  position: absolute;
+  right: 10px;
+  top: 1px;
+}
+
+.footer-text {
+  margin-top: 15px;
+}
+
+.sticky-footer-button {
+  border-style: none;
+  background-color: white;
+  margin: 0 10px 0 10px;
+}
